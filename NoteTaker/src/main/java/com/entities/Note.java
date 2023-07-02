@@ -1,5 +1,6 @@
 package com.entities;
-import java.util.*;
+import java.util.Date;
+import java.util.Random;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
@@ -48,5 +49,5 @@ public class Note {
 	public void setAddedDate(Date addedDate) {
 		this.addedDate = addedDate;
 	}
-	
+
 }
